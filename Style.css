@@ -1,0 +1,315 @@
+.root {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 30%;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.Logo_image {
+    position: absolute;
+    margin-top: 5px;
+    left: 40px;
+    width: 40%;
+    height: 20%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(42, 42, 105);
+    width: fit-content;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #0b0a0a;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:first-child {
+    border-radius: 16px;
+    border-top: 4px solid #356eff;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.Image-container {
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    display: inline-block;
+    left: 30px;
+    top: 200px;
+}
+
+.Image-container .Image2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.Image-container:hover .Image2 {
+    display: inline;
+}
+
+.NAV {
+    position: absolute;
+    left: 65%;
+    top: 80px;
+}
+
+.Log_btn {
+    position: absolute;
+    left: 70%;
+    top: 30px;
+}
+
+.Login {
+    padding: 10px 60px;
+    font-size: 20px;
+    background-color: rgb(42, 42, 105);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.user {
+    padding: 10px 60px;
+    font-size: 20px;
+    background-color: rgb(42, 42, 105);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Description {
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    font-family: orbitron;
+}
+
+.Description1 {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    font-family: orbitron;
+}
+
+.Image2 {
+    width: 115%;
+    height: 170%;
+    border-radius: 100px;
+}
+
+.Image1 {
+    width: 115%;
+    height: 170%;
+    border-radius: 100px;
+}
+
+.Image-w1 {
+    width: 125px;
+    height: 190px;
+    border-radius: 100px;
+    position: absolute;
+    left: 220px;
+    top: 180%;
+}
+
+.Image-w2 {
+    width: 125px;
+    height: 190px;
+    border-radius: 100px;
+    position: absolute;
+    left: 220px;
+    top: 210%;
+}
+
+.Image-w3 {
+    width: 125px;
+    height: 190px;
+    border-radius: 100px;
+    position: absolute;
+    left: 220px;
+    top: 240%;
+}
+
+.title {
+    font-size: 30px;
+    font-family: orbitron;
+    position: absolute;
+    right: 20%;
+    top: 160%;
+}
+
+.Header1 {
+    font-size: 20px;
+    color: rgb(42, 42, 105);
+    position: absolute;
+    left: 30%;
+    top: 180%;
+}
+
+.Header2 {
+    font-size: 20px;
+    color: rgb(42, 42, 105);
+    position: absolute;
+    left: 30%;
+    top: 210%;
+}
+
+.Header3 {
+    font-size: 20px;
+    color: rgb(42, 42, 105);
+    position: absolute;
+    left: 30%;
+    top: 240%;
+}
+
+.swiper-container {
+    display: flex;
+    position: absolute;
+    top: 290%;
+    text-align: right;
+    font-size: 18px;
+    background: #fff;
+    width: 70%;
+    border-right: 1px solid black;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-wrapper {
+    padding-left: initial;
+    margin: 0;
+}
+
+.Achievers {
+    font-size: 60px;
+    font-family: orbitron;
+    color: rgb(42, 42, 105);
+    position: absolute;
+    top: 270%;
+    text-align: center;
+    left: 30%;
+}
+
+.contact-us {
+    padding: 20px 100px;
+    border-radius: 50px;
+    background-color: rgb(42, 42, 105);
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+}
+
+.Text {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 20px 80px;
+    position: absolute;
+    left: 45%;
+    top: 45px;
+}
+
+svg {
+    position: absolute;
+    left: 60%;
+    top: 60px;
+}
